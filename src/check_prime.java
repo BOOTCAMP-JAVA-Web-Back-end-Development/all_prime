@@ -8,8 +8,8 @@ public class check_prime {
             res = true;
         }
         else{
-            for ( int i = 4; i < n/2; i ++){
-               if( n % i ==0){
+            for ( int i = 2; i < n/2; i ++){
+               if( n % i == 0){
                    res = false;
                    break;
                }
